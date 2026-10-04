@@ -1,0 +1,14 @@
+name: Tests
+on: [push, pull_request]
+jobs:
+  reference:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -e '.[test]'
+      - run: bash scripts/build_native.sh
+      - run: pytest -q

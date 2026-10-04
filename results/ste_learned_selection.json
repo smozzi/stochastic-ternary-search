@@ -1,0 +1,69 @@
+{
+  "pilot_commit": "ce60fde1b6a65da37b102b3fe50853ae4158afed",
+  "criterion": "mean terminal validation CE;seeds950/951;60seconds;cosine;LSQ-inspired ternary",
+  "chosen": {
+    "128": {
+      "batch": 128,
+      "schedule": "cosine",
+      "lr": 0.001,
+      "losses": [
+        0.219417724609375,
+        0.2336190185546875
+      ],
+      "mean": 0.22651837158203125
+    },
+    "5000": {
+      "batch": 5000,
+      "schedule": "cosine",
+      "lr": 0.001,
+      "losses": [
+        0.23633198547363282,
+        0.21336686706542968
+      ],
+      "mean": 0.22484942626953125
+    }
+  },
+  "scores": [
+    {
+      "batch": 128,
+      "schedule": "cosine",
+      "lr": 0.001,
+      "losses": [
+        0.219417724609375,
+        0.2336190185546875
+      ],
+      "mean": 0.22651837158203125
+    },
+    {
+      "batch": 128,
+      "schedule": "cosine",
+      "lr": 0.0003,
+      "losses": [
+        0.244005126953125,
+        0.22953439331054687
+      ],
+      "mean": 0.23676976013183593
+    },
+    {
+      "batch": 5000,
+      "schedule": "cosine",
+      "lr": 0.001,
+      "losses": [
+        0.23633198547363282,
+        0.21336686706542968
+      ],
+      "mean": 0.22484942626953125
+    },
+    {
+      "batch": 5000,
+      "schedule": "cosine",
+      "lr": 0.0003,
+      "losses": [
+        0.25023216247558594,
+        0.2372696533203125
+      ],
+      "mean": 0.24375090789794923
+    }
+  ],
+  "pilot_budget_seconds": 480
+}

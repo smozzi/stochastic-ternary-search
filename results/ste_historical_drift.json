@@ -1,0 +1,225 @@
+{
+  "description": "Original archived TWN-like constant.001 controls; same inference quantizer; seed500 diagnostic only.",
+  "records": [
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 0.0,
+      "layer": "hidden",
+      "latent_norm": 11.184273719787598,
+      "max_abs": 0.3498404622077942,
+      "scale_mean": 0.2336326688528061,
+      "zero_fraction": 0.35140305757522583,
+      "relative_quantization_error": 0.3318203091621399
+    },
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 0.0,
+      "layer": "output",
+      "latent_norm": 4.0959906578063965,
+      "max_abs": 0.2835419476032257,
+      "scale_mean": 0.19049231708049774,
+      "zero_fraction": 0.3609375059604645,
+      "relative_quantization_error": 0.3340941369533539
+    },
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 5.0,
+      "layer": "hidden",
+      "latent_norm": 20.698589324951172,
+      "max_abs": 2.059269428253174,
+      "scale_mean": 0.41470497846603394,
+      "zero_fraction": 0.4897959232330322,
+      "relative_quantization_error": 0.5471711158752441
+    },
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 5.0,
+      "layer": "output",
+      "latent_norm": 12.506061553955078,
+      "max_abs": 1.8971127271652222,
+      "scale_mean": 0.5724857449531555,
+      "zero_fraction": 0.4468750059604645,
+      "relative_quantization_error": 0.5066967010498047
+    },
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 20.0,
+      "layer": "hidden",
+      "latent_norm": 33.3292350769043,
+      "max_abs": 4.051079273223877,
+      "scale_mean": 0.6703633069992065,
+      "zero_fraction": 0.5369898080825806,
+      "relative_quantization_error": 0.638312578201294
+    },
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 20.0,
+      "layer": "output",
+      "latent_norm": 18.57059097290039,
+      "max_abs": 3.1420257091522217,
+      "scale_mean": 0.7975078821182251,
+      "zero_fraction": 0.45781248807907104,
+      "relative_quantization_error": 0.5932746529579163
+    },
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 60.0,
+      "layer": "hidden",
+      "latent_norm": 53.26667404174805,
+      "max_abs": 7.444770336151123,
+      "scale_mean": 1.059067964553833,
+      "zero_fraction": 0.5918367505073547,
+      "relative_quantization_error": 0.7106834650039673
+    },
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 60.0,
+      "layer": "output",
+      "latent_norm": 19.497041702270508,
+      "max_abs": 3.73109769821167,
+      "scale_mean": 0.797524094581604,
+      "zero_fraction": 0.484375,
+      "relative_quantization_error": 0.6672124266624451
+    },
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 240.0,
+      "layer": "hidden",
+      "latent_norm": 70.5481185913086,
+      "max_abs": 11.907421112060547,
+      "scale_mean": 1.3896420001983643,
+      "zero_fraction": 0.625956654548645,
+      "relative_quantization_error": 0.7465182542800903
+    },
+    {
+      "condition": "adam_ste_b128",
+      "seed": 500,
+      "target": 240.0,
+      "layer": "output",
+      "latent_norm": 19.779878616333008,
+      "max_abs": 4.473782539367676,
+      "scale_mean": 0.754034698009491,
+      "zero_fraction": 0.526562511920929,
+      "relative_quantization_error": 0.752271831035614
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 0.0,
+      "layer": "hidden",
+      "latent_norm": 11.184273719787598,
+      "max_abs": 0.3498404622077942,
+      "scale_mean": 0.2336326688528061,
+      "zero_fraction": 0.35140305757522583,
+      "relative_quantization_error": 0.3318203091621399
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 0.0,
+      "layer": "output",
+      "latent_norm": 4.0959906578063965,
+      "max_abs": 0.2835419476032257,
+      "scale_mean": 0.19049231708049774,
+      "zero_fraction": 0.3609375059604645,
+      "relative_quantization_error": 0.3340941369533539
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 5.0,
+      "layer": "hidden",
+      "latent_norm": 21.845943450927734,
+      "max_abs": 2.2645225524902344,
+      "scale_mean": 0.44203123450279236,
+      "zero_fraction": 0.47576531767845154,
+      "relative_quantization_error": 0.5638362765312195
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 5.0,
+      "layer": "output",
+      "latent_norm": 12.6466064453125,
+      "max_abs": 1.8263410329818726,
+      "scale_mean": 0.5680641531944275,
+      "zero_fraction": 0.4453125,
+      "relative_quantization_error": 0.5342991948127747
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 20.0,
+      "layer": "hidden",
+      "latent_norm": 37.393096923828125,
+      "max_abs": 4.919325351715088,
+      "scale_mean": 0.7692984342575073,
+      "zero_fraction": 0.5768494606018066,
+      "relative_quantization_error": 0.665856659412384
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 20.0,
+      "layer": "output",
+      "latent_norm": 18.917531967163086,
+      "max_abs": 3.0540390014648438,
+      "scale_mean": 0.7919580936431885,
+      "zero_fraction": 0.44843751192092896,
+      "relative_quantization_error": 0.6175454258918762
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 60.0,
+      "layer": "hidden",
+      "latent_norm": 58.30219268798828,
+      "max_abs": 10.77784252166748,
+      "scale_mean": 1.1962180137634277,
+      "zero_fraction": 0.6163902878761292,
+      "relative_quantization_error": 0.708072304725647
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 60.0,
+      "layer": "output",
+      "latent_norm": 19.21063995361328,
+      "max_abs": 6.239677429199219,
+      "scale_mean": 0.7650830149650574,
+      "zero_fraction": 0.48750001192092896,
+      "relative_quantization_error": 0.6966494917869568
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 240.0,
+      "layer": "hidden",
+      "latent_norm": 73.22508239746094,
+      "max_abs": 10.341269493103027,
+      "scale_mean": 1.4997498989105225,
+      "zero_fraction": 0.655293345451355,
+      "relative_quantization_error": 0.7415595650672913
+    },
+    {
+      "condition": "adam_ste_b5000",
+      "seed": 500,
+      "target": 240.0,
+      "layer": "output",
+      "latent_norm": 21.401355743408203,
+      "max_abs": 6.493880271911621,
+      "scale_mean": 0.7883995771408081,
+      "zero_fraction": 0.5375000238418579,
+      "relative_quantization_error": 0.7759310603141785
+    }
+  ]
+}

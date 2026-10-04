@@ -1,0 +1,18 @@
+{
+  "all_passed": true,
+  "condition": "learned-step STE",
+  "seed": 500,
+  "updates": 16,
+  "batch": 128,
+  "threads": 8,
+  "torch": "2.14.1+cpu",
+  "input": "deterministic random inputs, generator seed 982",
+  "checks": [
+    "exact public/research losses",
+    "exact public/research model states after every update"
+  ],
+  "public_source_sha256": {
+    "sts/baselines.py": "b2b582044efa505102b6b78f0a7f004b5b63a02e46b94a4e6785576bc762930d",
+    "sts/learned_steps.py": "07255d3e634c76cce1c7962e438487e47ed6caf5e1850f409248cabda5822c87"
+  }
+}

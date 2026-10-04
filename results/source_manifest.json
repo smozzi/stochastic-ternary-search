@@ -1,0 +1,22 @@
+{
+  "description": "SHA256 of source research artifacts before removing internal paths. Historical comparisons use V2; current results use INT32/V3.",
+  "current_source_commit": "5b00172276df1ab961dc50009d504bd9c5e587e8",
+  "source_sha256": {
+    "historical/terminal.csv": "138c53fa87e4343c01416b5e57e156c3c30a193538f8fb6cb977886e026aed47",
+    "historical/checkpoints.csv": "0f10ebc3111d235bda4f490c051d480de38c061ed4e6d475958ed7c0df2a38bb",
+    "current/terminal.csv": "995ec08b875f94633a838a11cb4f26805160bd831601cef4b22b7342d39fecb7",
+    "current/checkpoints.csv": "6b8ce483a484835e0c3959ef00c26b1144fc5faef8e0bfb4a76ea7eae9b6294c",
+    "historical/adaptive/seed500/selected": "030e6d98db1a9b19abf9a8dff95b8a54ba920832e19558484c730240c53312fc",
+    "historical/adam_b128/seed500/selected": "1fbb096ed06c9c2fbcc391cb4e0a2c50a8db366979b178956c4b51c163378058",
+    "historical/adam_ste_b128/seed500/selected": "5e2ef958f6191f5c6afa468a1fed0e7267fbf07b774e53c5814db62a6df93be1",
+    "historical/adam_ste_b5000/seed500/selected": "72a40a159faf9b392373dd3f69ca8dfce049ea612ce53e21ea4d8a58af85ba01",
+    "historical/adaptive/seed501/selected": "1f80a21b00c036a4be2c372461e570eeeda03dfb4f03320e35a7a419d5abe7f0",
+    "historical/adam_b128/seed501/selected": "30a017e221592859c104f74373fb82b4cfac2e64729db48c37a12ee54938ee07",
+    "historical/adam_ste_b128/seed501/selected": "b5833780d1757af00ed1b9ec2b835a80314f1a1702851c4637cbcd013f981d95",
+    "historical/adam_ste_b5000/seed501/selected": "2a2c9cf71fe56e57833b6ef82f8d996dbfb10d78d966ed723cae12563c0e93c0",
+    "historical/adaptive/seed502/selected": "b105a63f7003e944448fc449bf8198f7bd32e75ac99a63595f0d240a39dfbbea",
+    "historical/adam_b128/seed502/selected": "823a8f4b9ab33f2710e1b51cc32c81c8bc8a434667c02dbfb80c9aaf42bc0c5f",
+    "historical/adam_ste_b128/seed502/selected": "9c5922e26aa7fb5101b9d26bb289e00000a3dc428655bcf556a971d22c245916",
+    "historical/adam_ste_b5000/seed502/selected": "0c43f8ece71cda25c1041908761ca895abdb4a663f1853f3dede87ab1cf8c679"
+  }
+}

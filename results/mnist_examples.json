@@ -1,0 +1,131 @@
+{
+  "purpose": "Illustrative correctness-stratified selection; not an accuracy estimate",
+  "selection_seed": 20261004,
+  "model_seed": 500,
+  "target_seconds": 240,
+  "model_sha256": "e9f057c5a73f0f298d0be3fd7561832fb87b3bd839c7d4a139f3faae092f543a",
+  "test_accuracy": 0.9393,
+  "image_processing": "28\u00d728 /255; 4\u00d74 average pooling; displayed 7\u00d77 with nearest interpolation",
+  "selected": [
+    {
+      "test_index": 9767,
+      "true": 9,
+      "prediction": 9,
+      "correct": true
+    },
+    {
+      "test_index": 9543,
+      "true": 7,
+      "prediction": 7,
+      "correct": true
+    },
+    {
+      "test_index": 8205,
+      "true": 4,
+      "prediction": 4,
+      "correct": true
+    },
+    {
+      "test_index": 2619,
+      "true": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "test_index": 4334,
+      "true": 3,
+      "prediction": 3,
+      "correct": true
+    },
+    {
+      "test_index": 4437,
+      "true": 3,
+      "prediction": 3,
+      "correct": true
+    },
+    {
+      "test_index": 717,
+      "true": 0,
+      "prediction": 7,
+      "correct": false
+    },
+    {
+      "test_index": 7213,
+      "true": 6,
+      "prediction": 6,
+      "correct": true
+    },
+    {
+      "test_index": 4143,
+      "true": 9,
+      "prediction": 9,
+      "correct": true
+    },
+    {
+      "test_index": 9538,
+      "true": 4,
+      "prediction": 4,
+      "correct": true
+    },
+    {
+      "test_index": 6305,
+      "true": 2,
+      "prediction": 2,
+      "correct": true
+    },
+    {
+      "test_index": 9305,
+      "true": 3,
+      "prediction": 3,
+      "correct": true
+    },
+    {
+      "test_index": 8443,
+      "true": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "test_index": 9477,
+      "true": 2,
+      "prediction": 2,
+      "correct": true
+    },
+    {
+      "test_index": 6224,
+      "true": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "test_index": 877,
+      "true": 8,
+      "prediction": 8,
+      "correct": true
+    },
+    {
+      "test_index": 491,
+      "true": 5,
+      "prediction": 5,
+      "correct": true
+    },
+    {
+      "test_index": 2210,
+      "true": 6,
+      "prediction": 6,
+      "correct": true
+    },
+    {
+      "test_index": 6476,
+      "true": 5,
+      "prediction": 5,
+      "correct": true
+    },
+    {
+      "test_index": 115,
+      "true": 4,
+      "prediction": 4,
+      "correct": true
+    }
+  ]
+}

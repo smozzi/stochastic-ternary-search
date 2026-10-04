@@ -1,0 +1,113 @@
+{
+  "description": "Archived INT32/V3 240second checkpoints from audited600second runs. Current search uses no elapsed-time adaptation. Test evaluated post-budget, never used for selection.",
+  "records": [
+    {
+      "seed": 500,
+      "condition": "sts_int32",
+      "seconds": 240.00229435693473,
+      "rounds": 211684,
+      "train": {
+        "loss": 0.22168528204449153,
+        "accuracy": 0.9349830508474576
+      },
+      "validation": {
+        "loss": 0.2400830535888672,
+        "accuracy": 0.935
+      },
+      "test": {
+        "loss": 0.2094497314453125,
+        "accuracy": 0.9393
+      },
+      "best": {
+        "target": 240.0,
+        "seconds": 240.00229435693473,
+        "validation": {
+          "loss": 0.2400830535888672,
+          "accuracy": 0.935
+        },
+        "test": {
+          "loss": 0.2094497314453125,
+          "accuracy": 0.9393
+        }
+      }
+    },
+    {
+      "seed": 501,
+      "condition": "sts_int32",
+      "seconds": 240.00223712809384,
+      "rounds": 211325,
+      "train": {
+        "loss": 0.1994777707891949,
+        "accuracy": 0.9410508474576271
+      },
+      "validation": {
+        "loss": 0.22536940002441405,
+        "accuracy": 0.942
+      },
+      "test": {
+        "loss": 0.1937633056640625,
+        "accuracy": 0.9444
+      },
+      "best": {
+        "target": 180.0,
+        "seconds": 180.0040189223364,
+        "validation": {
+          "loss": 0.210919921875,
+          "accuracy": 0.941
+        },
+        "test": {
+          "loss": 0.19721868896484376,
+          "accuracy": 0.9417
+        }
+      }
+    },
+    {
+      "seed": 502,
+      "condition": "sts_int32",
+      "seconds": 240.00446641631424,
+      "rounds": 215021,
+      "train": {
+        "loss": 0.21567574814618645,
+        "accuracy": 0.9364915254237288
+      },
+      "validation": {
+        "loss": 0.2380172576904297,
+        "accuracy": 0.934
+      },
+      "test": {
+        "loss": 0.208900048828125,
+        "accuracy": 0.9408
+      },
+      "best": {
+        "target": 240.0,
+        "seconds": 240.00446641631424,
+        "validation": {
+          "loss": 0.2380172576904297,
+          "accuracy": 0.934
+        },
+        "test": {
+          "loss": 0.208900048828125,
+          "accuracy": 0.9408
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "500": {
+      "summary.json": "7eadad6f20796b26683b215291360827bda9bb13c8ac22159938af38b04351cc",
+      "checkpoints.pt": "4bc1b5fb733db378da1ffb95474e9202f01b73767a5c23748ff288c1f60de845",
+      "independent-audit.json": "35adccbfae1bf8bf13d48c76793ca95eaa40d90b2015370ac8f0ff74f72d4454"
+    },
+    "501": {
+      "summary.json": "2574e6a11ee20bf19fa675fff453a8f2da0ddcf2cb7873fe66d62c1216557870",
+      "checkpoints.pt": "114527c56d9e653c15b3c8fba701c54d49947b4ad964aee7810fc33bb06df9c0",
+      "independent-audit.json": "caa7924f2ef4223b25e2e6dcde2cdce81941b9e74e4bdff59d3bdefc164a0324"
+    },
+    "502": {
+      "summary.json": "03279cbe31bb341ac49351af879311fc49eeee0e637123e4a04990f55fd81667",
+      "checkpoints.pt": "c7bace827d357fac740a60529a53482352a8063e9daa589f5adf1fd1f71b378d",
+      "independent-audit.json": "e719566f0c2b6fd38d95f81e5dce97740bb01659973005f8802d2591e80c76ab"
+    }
+  },
+  "all_passed": true
+}

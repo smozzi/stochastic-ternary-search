@@ -1,0 +1,26 @@
+{
+  "all_passed": true,
+  "dataset_exact": true,
+  "cost_model_exact": true,
+  "width_checks": [
+    {
+      "width": 32,
+      "rounds": 1024,
+      "batch": 256,
+      "exact": true
+    },
+    {
+      "width": 64,
+      "rounds": 1024,
+      "batch": 256,
+      "exact": true
+    },
+    {
+      "width": 128,
+      "rounds": 1024,
+      "batch": 128,
+      "exact": true
+    }
+  ],
+  "torch": "2.14.0+cpu"
+}
